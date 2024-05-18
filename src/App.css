@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+.conteiner {
+    margin: 150px auto;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    border: 3px solid rgb(32, 237, 216);
+    border-radius: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.conteiner_monitor {
+    display: flex;
+    height: 180px;
+    border: 3px solid rgb(32, 237, 216);
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.conteiner_monitor-text {
+    font-size: 80px;
+    color: rgb(32, 237, 216);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.conteiner_button {
+    display: flex;
+    gap: 30px;
+    margin: 20px auto;
+    height: 180px;
+    border: 3px solid rgb(32, 237, 216);
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.conteiner_button-inc {
+    height: 50px;
+    width: 120px;
+    border-radius: 15px;
+    background-color: rgb(32, 237, 216);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.conteiner_button-reset {
+    height: 50px;
+    width: 120px;
+    border-radius: 15px;
+    background-color: rgb(32, 237, 216);
 }
